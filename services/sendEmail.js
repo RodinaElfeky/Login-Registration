@@ -9,7 +9,7 @@ export async function sendToEmail(dest,message){
         },
       });
       let info = await transporter.sendMail({   
-        from: '"Route alex 👻" <nourhanroutenodejs@gmail.com>', 
+        from: 'email@gmail.com', 
         to: dest, 
         subject: "Hello ✔",
         text: "Hello world?", 
